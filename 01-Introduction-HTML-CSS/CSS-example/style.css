@@ -1,0 +1,11 @@
+article .red{
+    color: yellow;
+}
+
+article .text{
+    background-color: blueviolet;
+}
+
+p .date{
+    color: blue;
+}

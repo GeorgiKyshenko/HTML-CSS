@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <em>My HTML</em>
+      </h1>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contacts</a></li>
+      </ul>
+    </header>
+    <main>
+      <form action="/" method="POST">
+        <div>
+            <label for="firstname">First name</label>
+        <input id="firstname" name="firstname" type="text" value="Georgi" />
+        <label for="lastname">Last name</label>
+        <input id="lastname" name="lastname" type="text" value="Evtimov" />
+        <!-- value здава текст -->
+        <label for="age">Age</label>
+        <input id="age" type="number" step="0.1" value="29" />
+        </div>
+        <div>
+            <label for="email">Email</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="johndoe@.gmail.com"
+        />
+        </div>
+        <!-- placeholder се изпозва за да зададе на полето добавена стойнот (като пример какво се очаква да се попълни) -->
+        <label for="text">File To Submit</label>
+        <input id="text" name="text" type="text" />
+        <input type="submit" />
+        <div>
+            <label>Gender: </label>
+          <label for="gender-male">Male</label>
+          <input type="radio" name="gender" id="gender-male" value="Male" />
+          <label for="gender-female">Female</label>
+          <input type="radio" name="gender" id="gender-female" value="Female" />
+        </div>
+      </form>
+    </main>
+    <footer>
+      <p>
+        <span>My Website </span>&copy<span> All Rights Reserved - 2022</span>
+      </p>
+    </footer>
+  </body>
+</html>
